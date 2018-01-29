@@ -10,12 +10,13 @@
           fetch="http://llvm.org/git/" />
           
   <default remote="dtc"
-           revision="release_60"
+           revision="release_70"
            sync-c="true"
            sync-j="8" />
            
   <project path="llvm" name="llvm" />
   <project path="llvm/tools/clang" name="clang" />
+  <project path="llvm/tools/clang/tools/extra" name="clang-tools-extra" />
   <project path="llvm/tools/lld" name="lld" />
   <project path="llvm/tools/polly" name="polly" />
   <project path="llvm/projects/compiler-rt" name="compiler-rt" />
