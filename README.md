@@ -25,7 +25,7 @@ And run the following to build your desired toolchain:
 $ cd build
 $ ./version
 ```
-Where "version" is 3.6. 3.7, 3.8, or 3.9.  
+Where "version" is 3.6  3.7  3.8  3.9  4.0  5.0  6.0  7.0.
 To optimize the toolchain for your local system, run with the 'opt' argument. Example:
 ```
 $ ./3.7 opt
