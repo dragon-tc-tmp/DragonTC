@@ -2,28 +2,17 @@
 <manifest>
   <remote name="dtc"
           fetch="https://github.com/dragon-tc-tmp/" />
-  <remote name="ln"
-          fetch="https://git.linaro.org/" />
+  <remote name="dtc-og"
+          fetch="https://github.com/dragon-tc/" />
   <remote name="gh"
           fetch="https://github.com/" />
-  <remote name="llvm"
-          fetch="http://llvm.org/git/" />
-          
+
   <default remote="dtc"
-           revision="release_80"
+           revision="master"
            sync-c="true"
            sync-j="8" />
-           
-  <project path="llvm" name="llvm" />
-  <project path="llvm/tools/clang" name="clang" />
-  <project path="llvm/tools/clang/tools/extra" name="clang-tools-extra" />
-  <project path="llvm/tools/lld" name="lld" />
-  <project path="llvm/tools/polly" name="polly" />
-  <project path="llvm/projects/compiler-rt" name="compiler-rt" />
-  <project path="llvm/projects/libcxxabi" name="libcxxabi" />
-  <project path="llvm/projects/libcxx" name="libcxx" />
-  <project path="llvm/projects/libunwind" name="libunwind" />
-  <project path="llvm/projects/openmp" name="openmp" />
-  <project path="build" name="build" revision="master" />
-  <project path="llvm/tools/binutils" name="mydongistiny/binutils" remote="gh" revision="2.32" />
+
+  <project path="build" name="build" />
+  <project path="llvm-project" name="llvm-project" />
+  <project path="llvm-project/llvm/tools/binutils" name="mydongistiny/binutils" remote="gh" revision="2.32" />
 </manifest>
