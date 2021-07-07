@@ -12,7 +12,7 @@ It's simple! Run the following commands in bash to get set up:
 ```
 $ mkdir dtc
 $ cd dtc
-$ repo init -u https://github.com/dragon-tc/DragonTC -b master
+$ repo init -u https://github.com/dragon-tc-tmp/DragonTC -b master
 $ repo sync -j(# of cores) -c -f
 ```
 For Debian and Ubuntu:
@@ -25,7 +25,7 @@ And run the following to build your desired toolchain:
 $ cd build
 $ ./version
 ```
-Where "version" is 3.6. 3.7, 3.8, or 3.9.  
+Where "version" is 3.6  3.7  3.8  3.9  4.0  5.0  6.0  7.0.
 To optimize the toolchain for your local system, run with the 'opt' argument. Example:
 ```
 $ ./3.7 opt
